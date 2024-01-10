@@ -4,4 +4,4 @@ WORKDIR /app
 
 COPY ./bin/Debug/net7.0/ .
 
-CMD []
+CMD ["dotnet", "Docker-example.dll"]
